@@ -1,0 +1,61 @@
+# PocketPlan – Backend
+
+## Introduction
+PocketPlan is a personal finance tracking application. The backend manages user authentication, income and expense transactions, and communication with the database.
+
+## Technology Stack
+- **Runtime:** Node.js
+- **Framework:** Express.js
+- **Database:** MongoDB
+- **Authentication:** JWT (JSON Web Token)
+- **Deployment:** Render
+- **Version Control:** GitHub
+
+## Features
+- User registration and login
+- Create income and expense transactions
+- Retrieve transaction records
+- Delete transactions
+- Calculate financial summaries
+- Store user and transaction data in MongoDB
+- Provide API endpoints for the frontend
+
+## Live Backend
+- **API Health Check:** https://personal-finance-tracker-api-xj9v.onrender.com/api/health
+
+## Frontend
+- **Live Application:** https://personal-finance-tracker-nine-sand.vercel.app/
+- **Frontend Repository:** https://github.com/Adarsha098/pocketplan-frontend
+
+## How to Run Locally
+
+### Prerequisites
+Install Node.js and configure a MongoDB database.
+
+### Steps
+1. Clone the backend repository.
+2. Open a terminal in the project folder.
+3. Install dependencies:
+
+   `npm install`
+
+4. Create a `.env` file with the required variables:
+   - `PORT`
+   - `MONGODB_URI`
+   - `JWT_SECRET`
+   - `CLIENT_ORIGIN`
+
+5. Start the development server:
+
+   `npm run dev`
+
+Never upload `.env` files, database credentials, or secret keys to GitHub.
+
+## Testing
+The deployed application has been tested for API connectivity, login, creating income and expense transactions, balance calculations, deleting transactions, and data persistence after refreshing the page.
+
+## Conclusion
+This backend demonstrates REST API development, database integration, authentication, and deployment using Node.js, Express.js, and MongoDB.
+
+## Author
+Adarsha Valli
